@@ -10,5 +10,7 @@ class Employee:
         return self.fname + " " + self.lname
     
 emp1 = Employee("Avinash","K",900000)
+
 print(emp1.full_name())
 print("lets make new changes")
+print(emp1.full_name())
